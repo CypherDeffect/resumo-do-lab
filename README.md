@@ -142,3 +142,31 @@ git clone <url>--branch <nome branch> --single-branch
 Arquivar alterações:
 git stash
 
+# Módulo 2 - Benefícios da Nuvem
+
+Alta disponibilidade: recurso disponível sempre que necessário
+SLA: Service Level Agreement. (Acordo Nível de Serviço)
+Serviços entregáveis da Microsoft
+		Caso o serviço fique indisponível, a Microsoft irá recompensar com cŕeditos no Azure, semelhante ao estorno de uma compra que não ocorreu. Tudo isso deve ser visto conforme o que foi firmado em contrato, se exceder o tempo, aí sim ganha o crédito. 
+Porcentagem: Tempo definido por contrato em que um serviço pode ficar indisponível. 
+
+Escalabilidade: Você não paga além dos serviços necessários. Nuvem é baseada em consumo.
+ Se você precisar aumentar recursos no meio do projeto, pode fazer sem maiores problemas. 
+Elasticidade: Escalar e projetar ambiente com base nas requisições. 
+	Adicionar VMs ou containers por meio de expansão.
+	Se houver queda significativa na demanda, os recursos podem ser reduzidos horizontalmente (automático ou manual).
+
+Confiabilidade: Por ser descentralizado, a nuvem naturalmente da suporte a uma infraestrutura e resiliente. 
+ Permite que você tenha recursos em vários lugares do mundo.
+Por estar em várias regiões, os recursos não ficarão totalmente indisponíveis, devido a um evento catastrófico por exemplo. 
+Previsibilidade: Microsoft Azure Well-Architected Framework. Confiança para que o cliente sinta-se seguro em migrar para a nuvem. 
+Segurança: Azure disponibiliza ferramentas, mas a implementação das mesmas NÃO é responsabilidade da Microsoft. 
+Atualização de sistemas, patch de correção, ficam a cargo do cliente. 
+	Se você deseja atualizações e manutenções automáticas, implantação de software ou plataforma como serviço podem ser uma estratégia melhor. 
+
+Governança: Auditoria. Validar quem tem acesso a o que. Bloquear acesso  quando a origem for de uma região que ninguém deve acessar.
+Gerenciabilidade: A nuvem suporta várias maneiras de gerenciar os recursos 
+
+DICA Sobre SLA: Quanto mais “9”, menos tempo o serviço pode ficar indisponível 
+
+
