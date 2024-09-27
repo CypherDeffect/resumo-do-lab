@@ -42,6 +42,36 @@ Cobrança conforme o uso, porém sempre pagando. (Assim funciona a Cloud)
 Gastar com produtos e serviços conforme é necessário, pagamento conforme o uso.
 Tudo o que está ativo está sujeito a cobrança
 
+## Conceitos de Nuvem 
+Tipos de serviço de nuvem
+IaaS: Infraestrutura como serviço
+
+Eu (cliente) me envolvo mais na configuração, mas tenho mais acesso ao recurso final. Basicamente é você ter um uma estrutura on-premise, porém na nuvem. 
+Mais flexível .
+Você configura e gerencia o hardware 
+MAIOR GESTÃO
+
+PaaS: Plataforma como serviço
+
+Não me preocupo com a máquina onde irá rodar e nem com as configurações da mesma. O foco é na aplicação e suas configurações.
+Fornece um ambiente para criação, o teste e a implantação de aplicativos de software, sem focar no gerenciamento da infraestrutura subjacente.
+Focado no desenvolvimento de aplicativos
+Gerenciamento de plataforma é realizado pelo provedor de nuvem
+
+GESTÃO INTERMEDIÁRIA
+
+
+SaaS: Software como serviço
+
+É definido pela licença. Cada uma te dá permissão a recursos específicos.
+Os usuários se conectam e usam aplicativos com base em nuvem pela internet: 
+Ex: Microsoft Teams. Modelo de preço de pagamento conforme o uso. 
+MENOR GESTÃO
+
+
+Modelo de Responsabilidade Compartilhada
+
+
 ## AULA 2.1.1 - O que é versionamento de código
 A cada alteração no seu código, irá gerar uma nova versão. 
 Sistemas de Controle de Versão: 
