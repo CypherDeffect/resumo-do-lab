@@ -199,4 +199,89 @@ Gerenciabilidade: A nuvem suporta várias maneiras de gerenciar os recursos
 
 DICA Sobre SLA: Quanto mais “9”, menos tempo o serviço pode ficar indisponível 
 
+Módulo 3z - Componentes de Arquitetura do Azure
+
+
+Nem todos os recursos estão disponíveis para todas as regiões
+
+GA = General Availability
+Abrangência Global
+
+Região é um grupo de Data Center (DC)
+3 datacenters por região
+https://learn.microsoft.com/pt-br/azure/reliability/cross-region-replication-azure
+
+Não está disponível para qualquer cliente
+Serviços Governamentais dos EUA
+	Atende às necessidades de segurança e conformidade das agências federais, governos e seus provedores de soluções. 
+
+Não aparece no portal
+Instância separada;
+Fisicamente isolada das demais implementações que nao sejam do governo os EUA
+Acessível somente a pessoal verificado.
+
+Azure China
+
+Microsoft foi a primeira empresa estrangeira a implementar a nuvem na China. 
+As instâncias também ficam separadas e a nuvem do Azure é operada pela 21Vianet.
+Todos os dados permanecem na China.
+Grupos de Recursos são separados conforme sua finalidade.
+Uma conta pode ter várias assinaturas, mas uma assinatura está associada apenas a uma conta.
+
+Grupos Gerenciamento: Semelhante a um domínio. Definir padrões para diferentes assinaturas. 
+
+LGPD não permite que o dado saia do Brasil, então o DRS deve ser dentro do Brasil
+
+https://azure.microsoft.com/pt-br/explore/global-infrastructure
+https://datacenters.microsoft.com/globe/explore/
+
+
+Conjunto de dimensionamento:
+Conjunto de disponibilidade: 
+
+Domínio de falha: Rack, separar em pelo menos 3
+Domínio de atualização: Linha horizontal. Grupo que separa as máquinas, para que possam ser atualizadas, ao passo que ainda ficam outras disponíveis.
+
+Área de Trabalho Virtual do Azure: Computador remote, assim como um RDP (WTS)
+Crie um ambiente completo de virtualização da área de trabalho sem precisar executar outros servidores de gateway
+ENTRA, console
+Experiência desktop Windows na nuvem, Bloqueia cópia de arquivos
+
+Serviço de contêineres do Azure: 
+pod de containers
+instância: PaaS
+Microsserviços
+
+Aplicativos de Contêiner do Azure: balancear a carga e escalar.
+
+AKS: Serviço de orquestração para contêineres com arquiteturas distribuídas e grande volumes de contêineres
+
+AZURE FUNCTION: PaaS 
+Código baseado em eventos é executado quando chamado, sem exigir uma infraestrutura de servidor durante períodos inativos
+Solicitação Rest
+
+lift-and-shift: levar como está. Migrar máquina sem fazer alterações
+
+Serviços de Aplicativo do Azure: plataforma totalmente gerenciada para criar, implantar e dimensionar aplicativos Web e APIs rapidamente.
+Trabalha com> .NET, .NET Core, Node.js, Java, Python ou php.
+
+Oferta Paas com requisitos de nível corporativo de desempenho, segurança e conformidade.
+
+Serviços de rede Azure
+Rede Virtual de Azure (VNet) 
+Pontos de extremidade públicos, acessíveis de qualquer lugar na internet
+Pontos de extremidade privados
+default: subredes não se comunicam, para impedir ataques laterais de atingirem outras redes. 
+Emparelhamento de rede conecta às redes privadas diretamente. 
+Overlap: ips iguais na mesma rede
+
+Gateway VPN
+
+ExpressRoute: Conexão direta via cabo
+Região US 2 = mais barata, por enquanto
+Scale-set
+Duração da consulta: Valor padrão é 10 minutos
+
+Instância Spot: Você paga um valor bem menor pelo recurso, porém, se outra pessoa (conta) quiser usar esse recurso e optar por pagar o valor cheio, seu recurso será derrubado. 
+Essa opção é comumente usada para testes e para desenvolvimento, onde esse recurso pode cair sem grandes problemas.
 
