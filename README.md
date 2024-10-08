@@ -285,3 +285,49 @@ Duração da consulta: Valor padrão é 10 minutos
 Instância Spot: Você paga um valor bem menor pelo recurso, porém, se outra pessoa (conta) quiser usar esse recurso e optar por pagar o valor cheio, seu recurso será derrubado. 
 Essa opção é comumente usada para testes e para desenvolvimento, onde esse recurso pode cair sem grandes problemas.
 
+ARMAZENAMENTO 
+Contas de Armazenamento (Storage Account)
+Deve ter um nome globalmente exclusivo; 3 a 24 caracteres
+Fornecer acesso à internet em todo o mundo;
+Determinar os serviços de armazenamento e as opções de redundância.
+ LRS e GRS
+
+Modelos de dados:
+Blob do Azure: Otimizado para quantidades massivas de dados não estruturados como texto ou dados binários. Aceita todo tipo.
+
+Adicionar disco não interrompe a máquina, mas mudar a família sim.
+ 
+Fila do Azure: Armazenamento de mensagens;
+Arquivos do Azure: Compartilhamento de arquivos de rede, Protocolo de Mensagens do Servidor ; \\servidor\compartilhamento$
+Tabelas do Azure: chave/atributo para armazenamento de dados estruturados não relacionais com design sem esquema.
+
+Migrações para o Azure
+
+Plataforma de migração unificada;
+Intervalo de ferramenta integradas e autônomas
+Avaliação e migração. (Legado) 
+
+Azure Data Box (Serviço de Migração Física)
+80 TB
+Mova os bkps de recuperação de desastre 
+Dados criptografados e caixa robusta para o trânsito;
+Caso de uso: cliente de uma localidade distante do data center. Conectividade limitada. 
+
+AzCopy
+
+CLI
+Copiar blobs ou arquivos de ou para sua conta de armazenamento;
+Sincronização em uma direção (
+
+Gerenciamento de Armazenamento do Azure
+GUI (Semelhante Windows Explorer)
+Compatível com Windows, MacOS, Linux
+Conexão direta com o computador
+Sincronização bidirecional;
+
+Premium: Cobra toda a quantidade de armazenamento, mesmo que não esteja em uso
+Compartilhamento de arquivos:
+Protocolo: SMB
+Porta: 445
+
+
