@@ -331,3 +331,60 @@ Protocolo: SMB
 Porta: 445
 
 
+## Segurança do Azure
+Microsoft Entra ID: Serviço de gerenciamento de identidades e acessos baseado em nuvem do Microsoft Azure.
+OpenID, WSFederation
+
+Entra Connect: Intermediário entre AD on-premise e Entra
+Logon único (SSO) Single Sign-on
+Gerenciamento de aplicativos
+Negócios para Negócios (B2B)
+Gerenciamento de dispositivos
+Business to Customer (B2C)
+
+Se criar usuário no AD, o mesmo é replicado para a nuvem. Mas se criado na nuvem, não é criado no AD.
+
+Benefícios 
+Obtenha os benefícios dos serviços de domínio baseados em nuvem sem gerenciar os controladores do domínio;
+Execute aplicativos herdados (que não podem utilizar os padrões de autenticação modernos) na nuvem
+Sincronizar automaticamente a partir do Entra ID
+Autenticação: 
+Identifica a pessoa ou serviço buscando acesso a um recurso;
+Solicita credenciais de acesso legítimo;
+Base para criar princípios de identidade e controle de acesso seguros. 
+
+      Autorização:
+Determinar o nível de acesso de uma pessoa ou serviço autenticado;
+Define quais dados eles podem acessar e o que podem fazer com eles
+Pessoas devem o menor nível de privilégio possível 
+
+Autenticação multifator
+
+
+Windows Hello: Validação facial 
+
+B2B do Entra External ID
+
+
+B2C
+Compartilho uma pequena parcela dos meus recursos para o usuário usar
+
+Acesso Condicional 
+Associação de usuário ou grupo
+Local do IP
+Dispositivo
+Aplicativo
+Detecção de risco
+
+Controle de Acesso baseado em função (RBAC)
+Gerenciamento de acesso de granularidade fina;
+Divida as tarefas dentro da equipe e conceda somente a quantidade de acessos de que os usuários precisam;
+Permissionamentos são herdáveis 
+
+Microsoft Defender para Nuvem
+Nativo da nuvem. Serviço de monitoramento 
+30 dias trial, depois tem cu$to
+Fornece recomendações de segurança;
+Detectar e bloquear malware;
+analisar e identificar ataques potenciais;
+Controle de acesso just-in-time para portas
