@@ -388,3 +388,33 @@ Fornece recomendações de segurança;
 Detectar e bloquear malware;
 analisar e identificar ataques potenciais;
 Controle de acesso just-in-time para portas
+
+Entra ID
+usuário excluído pode ser restaurado até 30 dias 
+Roles = Permissão de uma conta em relação a outra
+SSPR = Self Service Password Reset
+Entra Connect = Sincronizar com AD On-Premise
+
+## Custos
+
+Tipo de recurso
+Consumo: 
+pay as you go: Pagar conforme o uso;
+modelo de reserva: usar o recurso por x tempo (recebe desconto)
+
+Azure Marketplace
+Permite que os clientes encontrem aplicativos e serviços de terceiros 
+Quando adicionamos um desses recursos e o mesmo dá problema, precisamos acionar o suporte desse fabricante e não a Microsoft
+Calculadora de custo total de propriedade (TCO)
+Ferramenta para estimar economia de custos ao migrar para o Azure
+
+
+Gerenciamento de custos do Azure: definir triggers de consumo. Recomendações.
+
+
+Marcas (Tags)
+Ajuda a filtrar os recursos na fatura, para sabermos do que se trata. 
+Não são obrigatórios e nem herdáveis.
+Metadados aos recursos do Azure;
+Taxonomia de maneira lógica.
+Par por nome-valor
