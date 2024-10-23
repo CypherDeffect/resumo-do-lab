@@ -418,3 +418,20 @@ Não são obrigatórios e nem herdáveis.
 Metadados aos recursos do Azure;
 Taxonomia de maneira lógica.
 Par por nome-valor
+
+## Governança e Conformidade 
+
+Azure Policy: Ajuda a impor padrões organizacionais e a avaliar a conformidade em escala. Regra acima do permissionamento. 
+
+Se eu coloco o bloqueio no resource group, tudo o que estiver dentro dele irá herdar o bloqueio.
+
+ReadOnly = não permite alterar o estado do recurso;
+
+Portal de Confiança do Serviço = onde a Microsoft publica informações 
+
+Microsoft Purview: Família de soluções de governança, risco e conformidade de dados. Exibição unificada dos seus dados. 
+
+
+
+
+
