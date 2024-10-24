@@ -431,6 +431,20 @@ Portal de Confiança do Serviço = onde a Microsoft publica informações
 
 Microsoft Purview: Família de soluções de governança, risco e conformidade de dados. Exibição unificada dos seus dados. 
 
+## Ferramentas de Gerenciamento de Implantação
+
+Administrar recursos que estão fora do Azure
+
+Azure Resource Manager (ARM)
+
+Arquivos baseados em JSON, usados para criar e implantar a infraestrutura do Azure
+
+Bicep : modelo de linguagem nativa do Azure
+
+CloudShell: necessita storage account para usar
+https://azure.github.io/bicep/
+
+
 
 
 
